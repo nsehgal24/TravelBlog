@@ -1,0 +1,467 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--Color, #F5F1ED);
+    width: 100%;
+    height: 100%;
+}
+.homepage{
+    margin: 0;
+    padding: 0;
+    background: var(--Color, #F5F1ED);
+    width: 100%;
+    height: 100%;
+    background-image: url(Photos/IMG_2256.jpeg);
+    background-position: center top;
+    background-size: 100% 672px;
+    background-repeat: no-repeat;
+}
+
+.workpage{
+    margin: 0;
+    padding: 0;
+    background: var(--Color, #F5F1ED);
+    width: 100%;
+    height: 100%;
+    background-image: url(Photos/IMG_3700.jpeg);
+    background-position: center top;
+    background-size: 100% 672px;
+    background-repeat: no-repeat;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.navbar-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the color of the parent (or set your own color) */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.nav-link {
+    margin-top: 35px;
+    position: absolute;
+    font-size: 24px;
+    font-family: Khand, sans-serif;
+    word-wrap: break-word;
+    
+    
+}
+
+/* Home */
+.nav-link[data-title="Home"] {
+    color: #252323;
+    font-weight: 400;
+    left: 907px;
+}
+
+/* About */
+.nav-link[data-title="About"] {
+    color: #252323;
+    font-weight: 400;
+    left: 1019px;
+}
+
+/* Work */
+.nav-link[data-title="Work"] {
+    color: #252323;
+    font-weight: 400;
+    left: 1132px;
+}
+
+/* Philosophy */
+.nav-link[data-title="Philosophy"] {
+    color: #252323;
+    font-weight: 400;
+    left: 1237px;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 39px;
+    width: 50px;
+    height: 50px;
+    position: center;
+    background: #DAD2BC;
+}
+
+.logo-text {
+    margin-top: 37px;
+    margin-left: 49px;
+    position: absolute;
+    width: 30px;
+    height: 16px;
+    color: #A99985;
+    font-size: 12px;
+    font-family: Limelight, sans-serif;
+    font-weight: 400;
+   
+}
+
+.branding-text {
+    margin-top: 35px;
+    margin-left: 110px;
+    position: absolute;
+    width: 324px;
+    height: 30px;
+    color: #252323;
+    font-size: 16px;
+    font-family: 'Notable' , sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Kauai img,
+.CostaRica img,
+.Yosemite img {
+    width: 395px;
+    height: 517px;
+    object-fit: cover;
+    border-radius: 12px; 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Kauai img {
+    margin-top: 750px;
+    margin-left: 50px;
+    margin-bottom: 227px;
+}
+
+.CostaRica img {
+    margin-top: 750px;
+    margin-left: 76px;
+    margin-bottom: 227px;
+}
+
+.Yosemite img {
+    margin-top: 750px;
+    margin-left: 76px;
+    margin-bottom: 227px;
+    margin-right: 50px;
+}
+
+
+
+h1{
+position: absolute;
+top: 565px;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: var(--Color-3, #252323);
+font-family: 'Notable', sans-serif;
+font-size: 85px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 827px;
+height: 106px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2{
+color: #252323;
+font-family: Rozha One;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+h3{
+color: #252323;
+font-family: Rozha One;
+font-size: 85px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+h4 {
+    top: 1300px;
+    position: absolute;
+    color: #70798C;
+    font-family: 'Rozha One', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h5{
+color: #DAD2BC;
+font-family: Khand;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+h6{
+    color: #DAD2BC;
+font-family: Rozha One;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+p{
+color: #70798C;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.CaptionKauai h4 {
+    margin-left: 207px;
+}
+
+.CaptionCostaRica h4 {
+    margin-left: 648px;
+}
+
+.CaptionYosemite h4 {
+    margin-left: 1150px;
+}
+
+
+.Intro {
+    top:205px;
+    position:absolute;
+    margin-left: 763px;
+    font-size: 35px;
+    width: 400px;
+    height: 75px;
+}
+
+.Profilephoto {
+    top: 236px;
+    position: relative;
+}
+
+.Profilephoto img {
+    object-fit: cover;
+    margin-left: 214px; 
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 458px;
+    height: 549px;
+}
+
+.IntroBody {
+    top: 355px;
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 763px;
+    margin-right: 235px;
+    font-size: 20px;
+    width: 437px;
+    height: 423px;
+}
+
+.Getintouch{
+    font-size: 50px;
+    width: 600px;
+    height: 94px;
+    margin-left: 512px;
+    margin-top:300px;
+}
+
+.name h5,
+.Email h5 {
+    margin-left: 20px;
+    top: 990px; 
+    position: absolute;
+}
+
+.Content h5{
+    margin-left: 20px;
+    top: 1110px; 
+    position: absolute;
+}
+
+.name,
+.Email {
+    text-align: justify;
+    margin-left:263px ;
+    display: inline-block;
+    width: 325px;
+    height: 66px;
+    border-radius: 12px;
+    background: #70798C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+}
+
+.Email {
+    margin-left: 98px;
+    width: 540px;
+}
+
+.Content {
+    margin-top: 40px;
+    margin-left: 225px;
+    margin-bottom: 30px;
+    width: 1029px;
+    height: 255px;
+    border-radius: 12px;
+    background: #70798C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.send{
+    margin-top: 40px;
+    margin-left: 531px;
+    margin-bottom: 70px;
+    text-align: center;
+    width: 378px;
+    height: 77px;
+    border-radius: 12px;
+    background: #70798C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Title{
+    top: -300px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 720px;
+    width: 455px;
+    height: 72px;
+}
+
+.sideimage{
+    margin-top: 750px;
+    margin-left: 93px;
+}
+.sideimage img{
+width: 522px;
+height: 758px;
+border-radius: 12px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bodycontent{
+    margin-top: -460px;
+    margin-left: 720px;
+    margin-bottom: 370px;
+width: 620px;
+height: 175px;
+}
+
+.image1 img{
+    margin-top: 150px;
+    margin-left: 103px;
+    width: 395px;
+    height: 435px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.philosophy{
+    margin-top: -450px;
+    margin-left: 587px;
+    width: 500px;
+    height: 113px;      
+}
+
+.philbodycontent{
+    margin-top: 0px;
+    margin-left: 587px;
+    width: 643px;
+    height: 259px;
+}
+
+.image2 img{
+    margin-top: 150px;
+    margin-left: 898px;
+    width: 395px;
+    height: 435px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.process{
+    margin-top: -500px;
+    margin-left: 500px;
+    width: 500px;
+    height: 113px;      
+}
+
+.processbodycontent{
+    text-align: right;
+    margin-top: 0px;
+    margin-left: 175px;
+    width: 643px;
+    height: 244px;
+    margin-bottom: 200px
+} 
+
+.instagram img, .facebook img, .linkedin img, .google img{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.instagram img{
+    margin-left: 515px;
+    margin-top: 8px;
+}
+
+.facebook img{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.linkedin img{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.google img{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; 
+    background-color: #A99985;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    
+
+}
